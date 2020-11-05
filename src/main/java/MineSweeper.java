@@ -15,6 +15,6 @@ public class MineSweeper
     }
 
     public boolean inBounds(int row, int col)
-    {	return 0 >= row && row < myTruth.length && 0 <= col && col < myTruth[0].length;
+    {	return 0 <= row && row < myTruth.length && 0 <= col && col < myTruth[0].length;
     }
 }
