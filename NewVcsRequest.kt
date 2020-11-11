@@ -14,3 +14,7 @@ data class NewVcsRequest(
         val project: ProjectId,
         val properties: Properties
 )
+
+fun main() {
+        if(true){println("Hi!")}       
+}
