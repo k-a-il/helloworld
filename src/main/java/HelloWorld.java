@@ -9,6 +9,12 @@ public class HelloWorld {
         System.out.println("Hello world!");
     }
     
+    public void unusedParameter_oneMoreTime(String s) {
+        if(true) {}
+        System.out.println("Hello world!");
+    }
+    
+    
     public void unusedParameterWithAlwaysTrueClosure(String s) {
         if(true) {}
         System.out.println("Hello world!");
